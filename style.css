@@ -171,22 +171,17 @@ body {
 }
 
 .curriculum>h1 {
-    display: flex;
-    width: 460.609px;
-    height: 57.5px;
     color: #000;
     font-size: 46px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 57.5px;
 }
 
-.card-container {
+.box-container {
     gap: 30px;
     margin-top: 40px;
 }
 
-.card1 {
+.box1 {
     display: flex;
     width: 367.805px;
     height: 476.784px;
@@ -202,7 +197,7 @@ body {
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
 
-.card2 {
+.box2 {
     display: flex;
     width: 367.805px;
     height: 481.5px;
@@ -218,7 +213,7 @@ body {
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
 
-.card3 {
+.box3 {
     display: flex;
     width: 367.805px;
     height: 476.784px;
@@ -245,10 +240,13 @@ body {
 #read3 {
     color: #8700FF;
 }
+
 .icons {
     margin-top: 60px;
+    margin-bottom: 60px;
     gap: 10px;
 }
+
 .icon1 {
     display: flex;
     width: 60px;
@@ -267,6 +265,7 @@ body {
     line-height: 24px;
     /* 100% */
 }
+
 .icon2 {
     display: flex;
     width: 60px;
@@ -283,7 +282,34 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: 24px;
-    /* 100% */
+}
+
+.stories {
+    background-image: url('assets/bg.png');
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.stories>h1 {
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container {
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
 }
 
 
@@ -306,7 +332,7 @@ body {
 
     .banner,
     .curriculum,
-    .card-container {
+    .box-container {
         flex-direction: column;
     }
 
@@ -326,7 +352,7 @@ body {
         align-items: center;
     }
 
-    .card1 {
+    .box1 {
         display: flex;
         padding: 36px 28px;
         flex-direction: column;
@@ -339,7 +365,7 @@ body {
         box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
     }
 
-    .card2 {
+    .box2 {
         display: flex;
         padding: 36px 28px;
         flex-direction: column;
@@ -352,7 +378,7 @@ body {
         box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
     }
 
-    .card3 {
+    .box3 {
         display: flex;
         padding: 36px 28px;
         flex-direction: column;
@@ -363,6 +389,10 @@ body {
         border: 0.639px solid #F2E8FF;
         background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
         box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    .icons {
+        display: none;
     }
 
 }
