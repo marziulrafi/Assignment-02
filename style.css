@@ -43,9 +43,9 @@ body {
 
 .btn {
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.875rem;
     border-radius: 12px;
     background: black;
     display: flex;
@@ -92,10 +92,10 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 
@@ -117,17 +117,17 @@ body {
     color: black;
     font-size: 32px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .contact {
     width: 197px;
     color: #FFF;
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 1.875rem;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -146,11 +146,11 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 61px;
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 
 .ban-title>p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -177,7 +177,7 @@ body {
 }
 
 .box-container {
-    gap: 30px;
+    gap: 1.875rem;
     margin-top: 40px;
 }
 
@@ -285,8 +285,8 @@ body {
 }
 
 .stories {
-  
-    background-image:  linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), url('assets/bg.png');
+
+    background-image: linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), url('assets/bg.png');
     width: 1440px;
     flex-direction: column;
     justify-content: center;
@@ -304,14 +304,14 @@ body {
 }
 
 .card-container {
-    gap: 15px;
+    gap: 0.938rem;
     margin-top: 60px;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 
@@ -342,7 +342,7 @@ footer {
 
 .foot-container>p {
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: normal;
 
@@ -351,7 +351,7 @@ footer {
 .ul {
     flex-direction: column;
     margin-top: -10px;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .ul>li {
@@ -361,7 +361,7 @@ footer {
 .ul>li>a {
     text-decoration: none;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: normal;
 }
@@ -378,10 +378,10 @@ footer {
 .touch>h3 {
     color: #FFF;
     font-family: Quicksand;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 1.625rem;
     margin-top: -115px;
 
 }
@@ -399,61 +399,95 @@ footer {
         display: none;
     }
 
+    .banner,
+    .curriculum,
+    .box-container,
+    .stories,
+    .foot,
+    .ul,
+    .touch {
+        flex-direction: column;
+    }
+
     .foot {
         width: 390px;
         height: 770px;
         align-items: flex-start;
         padding: 6px;
     }
+
     .foot-container {
         margin-top: 40px;
-        margin-left: 30px;
+        margin-left: 1.875rem;
     }
+
     .foot-logo>h1 {
         color: #FFF;
         font-size: 35px;
         font-weight: 700;
         /* margin-top: 5px; */
     }
+
     .foot-container>p {
         color: #FFF;
         font-size: 16px;
         font-weight: 400;
         line-height: normal;
-    
+
     }
+
     .ul {
         margin-left: -10px;
         gap: 10px;
     }
+
     .touch {
-        margin-top: 150px;
-        margin-left: 30px;
+        margin-top: 9.375rem;
+        margin-left: 1.875rem;
     }
 
-    .banner,
-    .curriculum,
-    .box-container,
-    .foot, .ul, .touch {
+
+
+    .stories {
+        width: 390px;
+        padding: 40px 0px;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
     }
 
     .banner img {
+        margin-left: 3.125rem;
         order: -1;
     }
 
     .ban-title {
         text-align: center;
+        margin-top: -80px;
+    }
+    .banner {
+        margin-left: 3.125rem;
+        text-align: center;
+        align-items: center;
+    }
+    .btn {
+        margin-top: 1.875rem;
+        margin-left: 90px;
     }
 
     .small {
         display: block;
-        width: 30px;
-        height: 30px;
-        justify-content: center;
-        align-items: center;
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+    .small svg {
+        margin-left: 80px;
     }
 
+    .curriculum {
+        margin-left: 80px;
+    }
     .box1 {
         display: flex;
         padding: 36px 28px;
@@ -493,8 +527,25 @@ footer {
         box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
     }
 
+    .st1 {
+        display: none;
+    }
+    .stories {
+        margin-left: 60px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .icons {
         display: none;
+    }
+
+    .banner {
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
     }
 
 }
