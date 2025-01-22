@@ -658,7 +658,9 @@ footer {
     .logo>h3 {
         display: none;
     }
-
+    .logo img {
+        margin-right: 100px;
+    }
     .banner,
     .curriculum,
     .box-container,
@@ -670,6 +672,7 @@ footer {
     }
 
     .foot {
+        margin-left: 30px;
         width: 390px;
         height: 770px;
         align-items: flex-start;
@@ -706,10 +709,19 @@ footer {
         margin-left: 1.875rem;
     }
 
-
+    .view {
+        width: 184px;
+        height: 60px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -80px;
+    }
 
     .stories {
+        margin-top: 30px;
         width: 390px;
+        height: 700px;
         padding: 40px 0px;
         flex-direction: column;
         justify-content: center;
@@ -746,7 +758,8 @@ footer {
     }
 
     .small svg {
-        margin-left: 80px;
+        margin-top: -7px;
+        margin-left: 60px;
     }
 
     .curriculum {
@@ -797,7 +810,85 @@ footer {
     }
 
     .cards {
+        margin-top: -30px;
+        gap: 9px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .st2,
+    .st3,
+    .st4,
+    .st5 {
+        display: flex;
+        max-width: 185px;
+        flex-direction: column;
+        gap: 3px;
+        border-radius: 16px;
+        background: #FFF;
+    }
+
+    .st2>img {
+        display: flex;
+        width: 185px;
+    }
+
+    .st3>img {
+        display: flex;
+        width: 185px;
+    }
+
+    .st4>img {
+        display: flex;
+        width: 185px;
+    }
+
+    .st5>img {
+        display: flex;
+        width: 185px;
+    }
+
+    .st2>h3 {
+        font-size: 12px;
+    }
+
+    .st3>h3 {
+        font-size: 12.8px;
+    }
+
+    .st4>h3 {
+        font-size: 12px;
+    }
+
+    .st5>h3 {
+        font-size: 13.8px;
+    }
+
+    .st2>button {
+        margin-top: -20px;
+        width: 130.51px;
+        height: 40px;
+        font-size: 10.339px;
+    }
+
+    .st3>button {
+        margin-top: -20px;
+        width: 130.51px;
+        height: 40px;
+        font-size: 10.339px;
+    }
+
+    .st4>button {
+        margin-top: -20px;
+        width: 135.51px;
+        height: 40px;
+        font-size: 10.339px;
+    }
+
+    .st5>button {
+        margin-top: -20px;
+        width: 114.51px;
+        height: 40px;
+        font-size: 10.339px;
     }
 
 
